@@ -44,7 +44,7 @@ video {
 	gap: 10px;
 }
 
-.tab{
+.tab {
 	font-size: 16px;
 	font-weight: 500;
 	color: #ffffff80;
@@ -55,11 +55,11 @@ video {
 	font-weight: 700;
 }
 
-.follower{
+.follower {
 	position: relative;
 }
 
-.puntino{
+.puntino {
 	display: inline-block;
 	width: 6px;
 	height: 6px;
@@ -69,13 +69,13 @@ video {
 	vertical-align: text-top;
 	position: absolute;
 	left: 45px;
-	bottom: 25px;	
+	bottom: 21px;
 }
 
-.linea{
+.linea {
 	display: block;
 	width: 24px;
-    height: 2px;
+	height: 2px;
 	background-color: #fff;
 	margin: 2px auto 0;
 }
@@ -89,27 +89,29 @@ footer {
 	bottom: 0;
 	color: #fff;
 }
-	/* Inserisci qui sotto 
+
+/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 
-.info{
+.info {
 	font-size: small;
 	width: 300px;
 	margin-left: 10px;
 
 }
-.info p{
+
+.info p {
 	padding-top: 4px;
 }
 
-.bottom-section{
+.bottom-section {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	background-color: black;
 	padding: 10px 0;
 	gap: 30px;
-	
+
 }
 
 .btn {
@@ -120,21 +122,22 @@ footer {
 	color: #ffffff80;
 	font-size: 10px;
 }
-.btn i{
+
+.btn i {
 	font-size: 20px;
-	
+
 }
 
-.bottom-section h3{
+.bottom-section h3 {
 	font-size: x-small;
 
 }
 
-.btn.active{
+.btn.active {
 	color: white;
 }
 
-.add-color{
+.add-color {
 	position: relative;
 	width: 40px;
 	height: 30px;
@@ -145,47 +148,48 @@ footer {
 	margin-bottom: 10px;
 }
 
-.back{
+.back {
 	position: absolute;
 	width: 24px;
 	height: 24px;
 	border-radius: 6px;
 }
 
-.back.blue{
+.back.blue {
 	background-color: aqua;
 	left: 2px;
 }
 
-.back.pink{
+.back.pink {
 	background-color: palevioletred;
 	right: 2px;
 }
 
-.add-btn{
+.add-btn {
 	position: relative;
 	z-index: 2;
 	width: 31px;
-    height: 23px;
-    background-color: #fff;
-    color: black;
-    font-size: 26px;
-    font-weight: 100;
+	height: 23px;
+	background-color: #fff;
+	color: black;
+	font-size: 26px;
+	font-weight: 100;
 	border-radius: 6px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.btn.number{
+
+.btn.number {
 	position: relative;
 }
 
-.badge{
+.badge {
 	position: absolute;
 	top: 0px;
-    right: 20px;
-    width: 18px;
-    height: 12px;
+	right: 20px;
+	width: 18px;
+	height: 12px;
 	background-color: red;
 	color: #fff;
 	font-size: 9px;
@@ -211,16 +215,17 @@ footer {
 	flex-direction: column;
 	align-items: center;
 }
-	/* Inserisci qui sotto 
+
+/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-.logo-container{
+.logo-container {
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.logo-account{
+.logo-account {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -232,16 +237,17 @@ footer {
 	margin-top: 40px;
 }
 
-.logo-account img{
+.logo-account img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
 
-.cerchio-rosso{
+.cerchio-rosso {
 	position: absolute;
-	top: 70px;
-    left: 37%;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%) translateY(50%);
 	width: 16px;
 	height: 16px;
 	background-color: red;
@@ -252,17 +258,18 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+
 
 }
 
-.sidebar-tabs i{
+.sidebar-tabs i {
 	color: #fff;
 	font-size: 24px;
 
-	
+
 }
-.sidebar-tabs{
+
+.sidebar-tabs {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -271,14 +278,10 @@ footer {
 	margin-top: 20px;
 }
 
-.sidebar-tabs h2{
+.sidebar-tabs h2 {
 	font-size: x-small;
 	font-weight: 100;
 }
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
 
 
 /* --------------------- */
